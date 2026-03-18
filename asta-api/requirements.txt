@@ -3,3 +3,4 @@ uvicorn[standard]
 sqlmodel
 numpy
 python-multipart
+scalar-fastapi
