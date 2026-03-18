@@ -8,7 +8,8 @@ import type {
   NutritionalGapResponse,
 } from "@/types"
 
-const API_BASE_URL = "http://localhost:8000"
+// Use environment variable or default to localhost for dev
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"
 const API_KEY = "rekmed-evah-2026"
 
 const apiClient = axios.create({
